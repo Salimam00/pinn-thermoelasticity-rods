@@ -1,0 +1,4 @@
+Method,Formulation,"Pointwise relative displacement error","Error metric","Computational cost","Discretization / points","Boundary conditions"
+FEM,"Weak form","Reference solution","Reference solution","Not measured in the present study","2,000 elements / 2,000 free DOF","Explicitly imposed"
+"Strong-form PINN","Strong form","Not evaluated in the present study","Not evaluated","Not measured","Not evaluated","Penalty or hard constraint"
+"Proposed Deep Ritz","Variational energy minimization","1.3294% maximum displacement error; 0.06755% mean displacement error","Maximum relative displacement error: 1.3294%; mean relative displacement error: 0.06755%.","25.74 s (CPU)","200 quadrature points / 7,801 trainable parameters; 400 validation points","Hard constraint + natural boundary condition"

@@ -1,0 +1,8 @@
+Metric,Value
+Validation points,400
+MAE,"3.225429 x 10^-8 m"
+RMSE,"4.018592 x 10^-8 m"
+"Relative L2 error","1.273621 x 10^-4 (0.012736%)"
+"Maximum absolute displacement error","9.179086 x 10^-8 m"
+"Maximum analytical displacement","7.000000 x 10^-4 m"
+"Maximum Deep Ritz displacement","6.999986 x 10^-4 m"

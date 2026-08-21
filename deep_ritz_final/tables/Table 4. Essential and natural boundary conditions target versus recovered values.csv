@@ -1,0 +1,18 @@
+import pandas as pd
+
+# Загружаем CSV
+df = pd.read_csv("table4_boundary_conditions.csv")
+
+# Экспортируем в LaTeX
+latex_code = df.to_latex(
+    index=False,
+    escape=False,
+    column_format="p{4.5cm}p{3cm}p{3cm}p{3cm}",
+    caption=(
+        "Essential and natural boundary conditions: target versus recovered"
+        " values."
+    ),
+    label="tab:boundary_conditions",
+)
+
+print(latex_code)

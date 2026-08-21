@@ -1,0 +1,5 @@
+"Quadrature points (N)","Relative L² displacement error (%)","Maximum absolute displacement error (m)","Training time (s)"
+50,0.012352,"8.859716 x 10^-8",22.5517
+100,0.012355,"8.858545 x 10^-8",24.0472
+200,0.012736,"9.179086 x 10^-8",30.8520
+400,0.012695,"9.131200 x 10^-8",41.3818
