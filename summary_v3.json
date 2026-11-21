@@ -1,0 +1,52 @@
+{
+  "environment": {
+    "python": "3.13.18",
+    "platform": "Linux-6.18.44-fc-v726-x86_64-with-glibc2.39",
+    "torch": "2.15.0+cu132",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "threads": 2
+  },
+  "case_A_seed42": {
+    "MAE_m": 3.1729582915842204e-08,
+    "RMSE_m": 3.94430614513557e-08,
+    "rel_L2_u_pct": 0.01250077232988687,
+    "rel_L2_u_mech_pct": 0.08414031053492284,
+    "max_abs_u_m": 8.97992118701783e-08,
+    "max_abs_u_over_peak_pct": 0.012828458838596898,
+    "argmax_abs_u_x": 0.9423558897243107,
+    "rel_L2_sigma_pct": 0.6332146572462259,
+    "max_sigma_err_over_peak_pct": 1.8131760815302096,
+    "peak_sigma_exact_MPa": 40.0,
+    "peak_sigma_dr_MPa": 39.274729567387915,
+    "energy_norm_err_pct": 0.5754846728664221,
+    "energy_norm_err_totalstrain_pct": 0.08061684225509406,
+    "force_x0_N": 10141.485235567287,
+    "force_xL_N": 9818.68239184698,
+    "u0_m": 0.0,
+    "uL_m": 0.0006999987146672179,
+    "training_time_s": 21.103055767,
+    "lbfgs_closure_calls": 626
+  },
+  "case_B_seed42": {
+    "MAE_m": 3.730063135530542e-08,
+    "RMSE_m": 4.439347734590766e-08,
+    "rel_L2_u_pct": 0.15182248911276272,
+    "rel_L2_u_mech_pct": 0.015783430731817375,
+    "max_abs_u_m": 9.136673069577097e-08,
+    "max_abs_u_over_peak_pct": 0.20557514406548466,
+    "argmax_abs_u_x": 0.9172932330827067,
+    "rel_L2_sigma_pct": 0.08960025344793016,
+    "max_sigma_err_over_peak_pct": 0.21552240537857012,
+    "peak_sigma_exact_MPa": -240.00000000000003,
+    "peak_sigma_dr_MPa": -239.48274622709147,
+    "energy_norm_err_pct": 0.0881672692140412,
+    "energy_norm_err_totalstrain_pct": 0.37801208470017433,
+    "force_x0_N": -59793.24346803227,
+    "force_xL_N": -59870.68655677287,
+    "u0_m": -0.0,
+    "uL_m": -0.0,
+    "training_time_s": 15.393990261999988,
+    "lbfgs_closure_calls": 625
+  }
+}
