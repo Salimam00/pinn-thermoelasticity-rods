@@ -1,0 +1,4 @@
+Quantity,Reference,Deep Ritz,Relative error (%)
+Maximum stress (MPa),40.0000,39.2746,1.8136
+Displacement at x=0 (m),0,0,0
+Axial force at x=L (kN),10.000,9.819,1.8136
