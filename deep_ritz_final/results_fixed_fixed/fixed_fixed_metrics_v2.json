@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "dtype": "float64",
+  "reaction_exact_N": -60000.00000000001,
+  "reaction_left_dr_N": -59852.03571087159,
+  "reaction_right_dr_N": -59898.24075746288,
+  "relative_L2_displacement_percent": 0.1120849453986997,
+  "max_displacement_error_normalized_by_peak_percent": 0.15603590531388165,
+  "relative_L2_stress_percent": 0.06755122813970268,
+  "max_stress_error_relative_to_peak_percent": 0.16959873756187657,
+  "training_time_s": 18.324831408001046
+}
