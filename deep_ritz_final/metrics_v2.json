@@ -1,0 +1,19 @@
+{
+  "MAE_m": 3.174877588337102e-08,
+  "RMSE_m": 3.945481109630545e-08,
+  "Relative_L2": 0.00012504496169545083,
+  "Max_absolute_error_m": 8.978290729009641e-08,
+  "u0_m": 0.0,
+  "target_force_N": 10000.0,
+  "predicted_force_N": 9818.639782994747,
+  "relative_force_error": 0.018136021700525272,
+  "training_time_s": 20.322689016000368,
+  "quadrature_points": 200,
+  "adam_epochs": 5000,
+  "adam_learning_rate": 0.001,
+  "lbfgs_max_iter": 500,
+  "lbfgs_closure_calls": 626,
+  "hidden_layers": 4,
+  "neurons_per_layer": 50,
+  "U_SCALE_m": 0.00125
+}
